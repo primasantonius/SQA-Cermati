@@ -3,7 +3,7 @@
 ```
 git clone git@github.com:primasantonius/SQA-Cermati.git
 
-cd sqa-test
+cd SQA-Cermati
 
 npm install
 ```

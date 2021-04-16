@@ -1,0 +1,20 @@
+{
+  "name": "cermati",
+  "version": "1.0.0",
+  "description": "test cermati",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "primas",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.6.2"
+  },
+  "devDependencies": {
+    "chromedriver": "^89.0.0",
+    "faker": "^5.5.3",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2"
+  }
+}

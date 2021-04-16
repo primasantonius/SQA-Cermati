@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-16T16:11:53.185Z",
+    "end": "2021-04-16T16:12:14.237Z",
+    "duration": 21052,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4aeca70d-4913-41bb-88f6-677b9956f8a2",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "526ea7d0-8345-472f-a5b4-d388f1de2911",
+          "title": "Gabung Cermati",
+          "fullFile": "C:\\Users\\Antonius\\cermati\\tests\\cermati.js",
+          "file": "\\tests\\cermati.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "sukses gabung",
+              "fullTitle": "Gabung Cermati sukses gabung",
+              "timedOut": false,
+              "duration": 20516,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "browser\n    .url('https://www.cermati.com/gabung')\n    .waitForElementVisible('body')\n    .setValue('input[type=text][name=email]', faker.internet.email())\n    .setValue('input[type=password][id=password]', 'Abcde!123')\n    .setValue('input[type=password][name=confirmPassword]', 'Abcde!123')\n    .setValue('input[type=text][name=firstName]', faker.name.firstName()) \n    .setValue('input[type=text][name=lastName]', faker.name.lastName()) \n    .setValue('input[type=tel][name=mobilePhone]', faker.phone.phoneNumber('081#########'))\n    .setValue('input[type=text][name=residenceCity]', 'JAKARTA BARAT')\n    .waitForElementVisible('div.autocomplete-list-item')\n    .click('div.autocomplete-list-item')\n    .click('button[type=submit]')\n    .pause(15000)\n    .end();",
+              "err": {},
+              "uuid": "d4471c9f-0a1d-4a13-afeb-1965ce5262f6",
+              "parentUUID": "526ea7d0-8345-472f-a5b4-d388f1de2911",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d4471c9f-0a1d-4a13-afeb-1965ce5262f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20516,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 10000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./report",
+        "quiet": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
